@@ -9,6 +9,8 @@ namespace SOA_Server.Models
 
         public string LastName { set; get; }
 
+        public string Patronym { set; get; }
+
         public float AverageMark { set; get; }
     }
 }

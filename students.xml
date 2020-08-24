@@ -3,41 +3,49 @@
 	<Student>
 		<FirstName>Dmitry</FirstName>
 		<LastName>Gorkavchuk</LastName>
+		<Patronym>Yurievich</Patronym>
 		<AverageMark>1.3</AverageMark>
 	</Student>
 	<Student>
 		<FirstName>Alexander</FirstName>
 		<LastName>Barsky</LastName>
+		<Patronym>Olegovich</Patronym>
 		<AverageMark>4.5</AverageMark>
 	</Student>
 	<Student>
 		<FirstName>Arseniy</FirstName>
 		<LastName>Gromovoy</LastName>
+		<Patronym>Valerievich</Patronym>
 		<AverageMark>4.8</AverageMark>
 	</Student>
 	<Student>
 		<FirstName>Pavlo</FirstName>
 		<LastName>Tokariev</LastName>
+		<Patronym>Evgenievich</Patronym>
 		<AverageMark>5.0</AverageMark>
 	</Student>
 	<Student>
 		<FirstName>Alena</FirstName>
 		<LastName>Dyachenko</LastName>
+		<Patronym>Konstantinovna</Patronym>
 		<AverageMark>4.3</AverageMark>
 	</Student>
 	<Student>
 		<FirstName>Ivan</FirstName>
 		<LastName>Bilan</LastName>
+		<Patronym>Dmitrievich</Patronym>
 		<AverageMark>3.6</AverageMark>
 	</Student>
 	<Student>
 		<FirstName>Oleg</FirstName>
 		<LastName>Barmin</LastName>
+		<Patronym>Igorevich</Patronym>
 		<AverageMark>3.8</AverageMark>
 	</Student>
 	<Student>
 		<FirstName>Igor</FirstName>
 		<LastName>Guley</LastName>
+		<Patronym>Kuzmich</Patronym>
 		<AverageMark>2.9</AverageMark>
 	</Student>
 </ArrayOfStudent>
