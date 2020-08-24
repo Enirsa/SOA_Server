@@ -67,10 +67,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="students.xml" />
+    <Content Include="StudentsService.asmx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StudentsService.asmx.cs">
+      <DependentUpon>StudentsService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-
-using System.IO;
+﻿using System.IO;
 using System.Linq;
 using System.Web.Hosting;
-using System.Web;
 using System.Web.Services;
 using System.Xml.Serialization;
 
@@ -18,6 +14,21 @@ namespace SOA_Server
     public class StudentsService : System.Web.Services.WebService
     {
         const string STUDENTS_PATH = "~/students.xml";
+
+        [WebMethod]
+        public Student[] GetAllStudents()
+        {
+            return LoadStudents();
+        }
+
+        [WebMethod]
+        public Student[] GetStudentsByAverageMark(float minMark, float maxMark)
+        {
+            return LoadStudents().Where(s =>
+                s.AverageMark >= minMark
+                && s.AverageMark <= maxMark
+            ).ToArray();
+        }
 
         private Student[] LoadStudents()
         {
