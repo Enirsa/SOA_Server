@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfStudent>
+	<Student>
+		<FirstName>Dmitry</FirstName>
+		<LastName>Gorkavchuk</LastName>
+		<AverageMark>1</AverageMark>
+	</Student>
+	<Student>
+		<FirstName>Alexander</FirstName>
+		<LastName>Barsky</LastName>
+		<AverageMark>4</AverageMark>
+	</Student>
+	<Student>
+		<FirstName>Arseniy</FirstName>
+		<LastName>Gromovoy</LastName>
+		<AverageMark>5</AverageMark>
+	</Student>
+	<Student>
+		<FirstName>Pavlo</FirstName>
+		<LastName>Tokariev</LastName>
+		<AverageMark>5</AverageMark>
+	</Student>
+	<Student>
+		<FirstName>Alena</FirstName>
+		<LastName>Dyachenko</LastName>
+		<AverageMark>4</AverageMark>
+	</Student>
+	<Student>
+		<FirstName>Ivan</FirstName>
+		<LastName>Bilan</LastName>
+		<AverageMark>3</AverageMark>
+	</Student>
+	<Student>
+		<FirstName>Oleg</FirstName>
+		<LastName>Barmin</LastName>
+		<AverageMark>3</AverageMark>
+	</Student>
+	<Student>
+		<FirstName>Igor</FirstName>
+		<LastName>Guley</LastName>
+		<AverageMark>2</AverageMark>
+	</Student>
+</ArrayOfStudent>
