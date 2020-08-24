@@ -1,6 +1,7 @@
 ﻿using System.IO;
 using System.Linq;
 using System.Web.Hosting;
+using System.Web.Script.Services;
 using System.Web.Services;
 using System.Xml.Serialization;
 
@@ -8,6 +9,7 @@ using SOA_Server.Models;
 
 namespace SOA_Server
 {
+    [ScriptService]
     [WebService(Namespace = "http://gorkavchuk.me/")]
     [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
     [System.ComponentModel.ToolboxItem(false)]
